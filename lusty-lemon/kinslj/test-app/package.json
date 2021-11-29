@@ -1,0 +1,15 @@
+{
+    "name": "test-app",
+    "description": "This is just to test the apt repo functions",
+    "version": "0.0.1",
+    "release-date": "11/28/2021",
+    "files": [
+        {
+            "name": "test-app.lua",
+            "install": {
+                "to": "/usr/sbin",
+                "from": "data/usr/bin"
+            }
+        }
+    ]
+}
